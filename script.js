@@ -1,5 +1,5 @@
 
-const ADMIN_EMAIL = "TU_CORREO_ADMIN@gmail.com";
+const ADMIN_EMAIL = "oscarsitoequisde@gmail.com";
 
 const auth = firebase.auth();
 const db = firebase.firestore();
