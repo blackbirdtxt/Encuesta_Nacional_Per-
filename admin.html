@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel Administrador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Panel Privado</h1>
+
+  <div id="adminSection" class="hidden">
+    <button id="exportBtn">Exportar resultados a Excel</button>
+    <p id="status"></p>
+  </div>
+
+  <p id="noAccess" class="hidden">No tienes permisos de administrador.</p>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+<script src="firebase-config.js"></script>
+<script src="admin.js"></script>
+
+</body>
+</html>
