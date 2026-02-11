@@ -25,8 +25,17 @@ departamentos.forEach(dep => {
 
 loginBtn.addEventListener("click", () => {
   const provider = new firebase.auth.GoogleAuthProvider();
-  auth.signInWithPopup(provider);
+  auth.signInWithRedirect(provider);
 });
+
+auth.getRedirectResult().then((result) => {
+  if (result.user) {
+    console.log("Login exitoso");
+  }
+}).catch((error) => {
+  console.error(error);
+});
+
 
 auth.onAuthStateChanged(user => {
   if (user) {
