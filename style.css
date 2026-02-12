@@ -1,15 +1,33 @@
 body {
-  background: #f8f9fa;
-  color: #333;
+  font-family: Arial;
+  background: #f2f4f8;
+  text-align: center;
+  margin: 0;
 }
 
-h1, h4 {
-  text-align: center;
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  font-size: 22px;
 }
 
-footer {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 0.85rem;
-  color: #666;
+.card {
+  background: white;
+  padding: 30px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #16a34a;
+  color: white;
 }
