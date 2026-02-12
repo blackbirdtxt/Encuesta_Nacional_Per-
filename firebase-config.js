@@ -1,12 +1,12 @@
 
 // ⚠️ REEMPLAZA ESTOS DATOS CON LOS TUYOS DESDE FIREBASE
 const firebaseConfig = {
-  apiKey: "AQUI_TU_API_KEY",
-  authDomain: "AQUI_TU_AUTH_DOMAIN",
-  projectId: "AQUI_TU_PROJECT_ID",
-  storageBucket: "AQUI_TU_STORAGE_BUCKET",
-  messagingSenderId: "AQUI_TU_SENDER_ID",
-  appId: "AQUI_TU_APP_ID"
+  apiKey: "AIzaSyCnUa9eQo0xo-ZABSdbUX1xyWQwFfRVnKo",
+  authDomain: "encuestanacionalperu-77532.firebaseapp.com",
+  projectId: "encuestanacionalperu-77532",
+  storageBucket: "encuestanacionalperu-77532.firebasestorage.app",
+  messagingSenderId: "900614454161",
+  appId: "1:900614454161:web:80b23f81342b6aee147830"
 };
 
 firebase.initializeApp(firebaseConfig);
