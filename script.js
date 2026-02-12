@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 var auth = firebase.auth();
 var db = firebase.firestore();
 
-const ADMIN_EMAIL = "TU_CORREO_ADMIN@gmail.com";
+const ADMIN_EMAIL = "oscarsitoequisde@gmail.com";
 
 // LOGIN
 function login() {
