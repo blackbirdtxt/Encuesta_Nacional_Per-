@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta Nacional Perú 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Encuesta Nacional Perú 2026</h1>
+</header>
+
+<div class="card">
+    <p>Encuesta digital voluntaria e independiente.</p>
+    <button id="loginBtn" class="green">Iniciar sesión con Google</button>
+    <button onclick="window.location.href='admin.html'" class="red">Panel Admin</button>
+</div>
+
+<div id="surveySection" class="card hidden">
+    <h2>Encuesta</h2>
+    <label>¿Por quién votarías en 2026?</label>
+    <select id="candidato">
+        <option value="">Selecciona</option>
+        <option value="Candidato A">Candidato A</option>
+        <option value="Candidato B">Candidato B</option>
+        <option value="Candidato C">Candidato C</option>
+    </select>
+
+    <button id="submitBtn" class="green">Enviar respuesta</button>
+</div>
+
+<script src="firebase-config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
